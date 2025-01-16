@@ -1,0 +1,32 @@
+[
+  {
+    "moduleId": "io.github.kevinnzou:compose-webview-multiplatform:1.9.40",
+    "file": "/Users/sppzglou/AndroidStudioProjects/easyCompose/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/io.github.kevinnzou-compose-webview-multiplatform-1.9.40-iosMain-cinterop/compose-webview-multiplatform_webview-cinterop-observer-Kyx32Q.klib",
+    "sourceSetName": "iosMain"
+  },
+  {
+    "moduleId": "androidx.sqlite:sqlite-bundled:2.5.0-alpha06",
+    "file": "/Users/sppzglou/AndroidStudioProjects/easyCompose/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/androidx.sqlite-sqlite-bundled-2.5.0-alpha06-nativeMain-cinterop/androidx.sqlite_sqlite-bundled-cinterop-androidXBundledSqlite-OKe1_Q.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "org.jetbrains.kotlinx:atomicfu:0.23.2",
+    "file": "/Users/sppzglou/AndroidStudioProjects/easyCompose/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-cinterop/org.jetbrains.kotlinx_atomicfu-cinterop-interop-yBS35w.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "org.jetbrains.compose.ui:ui-uikit:1.7.1",
+    "file": "/Users/sppzglou/AndroidStudioProjects/easyCompose/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/org.jetbrains.compose.ui-ui-uikit-1.7.1-uikitMain-cinterop/org.jetbrains.compose.ui_ui-uikit-cinterop-utils-aNVDjg.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "androidx.sqlite:sqlite-framework:2.5.0-alpha06",
+    "file": "/Users/sppzglou/AndroidStudioProjects/easyCompose/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/androidx.sqlite-sqlite-framework-2.5.0-alpha06-nativeMain-cinterop/androidx.sqlite_sqlite-framework-cinterop-sqlite3-YXYHGA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "io.ktor:ktor-utils:2.3.12",
+    "file": "/Users/sppzglou/AndroidStudioProjects/easyCompose/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/io.ktor-ktor-utils-2.3.12-iosMain-cinterop/io.ktor_ktor-utils-cinterop-threadUtils-TE4abA.klib",
+    "sourceSetName": "iosMain"
+  }
+]
