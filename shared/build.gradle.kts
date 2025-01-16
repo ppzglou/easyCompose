@@ -11,6 +11,8 @@ plugins {
     alias(libs.plugins.serialization)
     //Cocoapods
    // alias(libs.plugins.kotlin.cocoapods)
+
+    id("maven-publish")
 }
 
 kotlin {
@@ -123,6 +125,29 @@ android {
 }
 dependencies {
     implementation(libs.androidx.activity.compose)
+}
+
+
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/ppzglou/easyCompose")
+            credentials {
+                username = System.getenv("GITHUB_USERNAME") ?: "ppzglou"
+                password =
+                    System.getenv("GITHUB_TOKEN") ?: "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"
+            }
+        }
+    }
+    publications {
+        create<MavenPublication>("release") {
+            from(components["kotlin"])
+            groupId = "gr.sppzglou.easycompose"
+            artifactId = "easycompose"
+            version = "1.0.0"
+        }
+    }
 }
 
 /*
